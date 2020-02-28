@@ -42,7 +42,7 @@
 		<a href="index.php" class="buttons">Home</a>
 	</div>
 
-	<?php 
+	<?php
 		$sql = "SELECT * FROM binventory;";
 		$result = mysqli_query($conn, $sql);
 		$resultCheck = mysqli_num_rows($result);

@@ -49,5 +49,14 @@
 		<a href="index.php" class="buttons">Home</a>
 	</div>
 
+	<h4>Search Entry</h4>
+	<h6>Enter Asset Number, Owner, Asset, Category, Make, Model, Description, Serial Number, Date, Cost or Warranty</h6>
+	<form action="ListInventoryItems.php" method="POST">
+		<input type='text' name='search'>
+		<input type="submit">
+	</form>
+	
+
+
 </body>
 </html>
